@@ -1,0 +1,16 @@
+[package]
+name = "rust-auth0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-files = "0.6.6"
+actix-session = { version = "0.10.1", features = ["cookie-session"] }
+actix-web = "4.9.0"
+common_macros = "0.1.1"
+dotenv = "0.15.0"
+jsonwebtoken = "9.3.1"
+reqwest = { version = "0.12.12", features = ["json", "rustls-tls"] }
+serde = { version = "1.0.218", features = ["derive"] }
+serde_json = "1.0.139"
+tokio = "1.43.0"
